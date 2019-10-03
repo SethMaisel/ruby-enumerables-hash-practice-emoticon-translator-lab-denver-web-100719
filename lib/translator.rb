@@ -11,12 +11,10 @@ def load_library(file_path)
   emoticon_library
 end
 
-def get_japanese_emoticon(file_path = './lib/emoticons.yml', emoticon)
+def get_japanese_emoticon(file_path = './lib/emoticons.yml', english_emoticon)
   library = load_library(file_path)
   library["get_emoticon"].each do |english, japanese|
-    if emoticon == english
-      
-    end
+    
   end
 end
 
