@@ -13,7 +13,7 @@ end
 
 def get_japanese_emoticon(file_path = './lib/emoticons.yml', get_emoticon)
   library = load_library(file_path)
-  library["get_emoticon"].each 
+  library["get_emoticon"].each do 
     library["get_emoticon"][english_emoticon]
   end
 end
